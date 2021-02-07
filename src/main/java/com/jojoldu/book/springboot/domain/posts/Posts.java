@@ -33,4 +33,11 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+
+    // 트랜잭션 안에서 데이터 베이스에서 데이터를 가져오면 영속성 유지(트랜잭션이 끝나는 시점에 해당 테이블에 변경분을 반영)
+    // 더티체킹(https://jojoldu.tistory.com/415)
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }

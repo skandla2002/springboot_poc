@@ -16,3 +16,8 @@ insert into posts (author, content, title) values ('author', 'content', 'title')
 - API 호출   
 `http://localhost:8080/api/v1/posts/1`
   
+
+## Mustache 연결
+- plugin 설치
+- main/resources/templates/index.mustache 생성
+- main/java/com/jojoldu/book/springboot/web/IndexController 생성하여 연결함

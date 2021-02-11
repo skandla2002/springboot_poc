@@ -21,3 +21,7 @@ insert into posts (author, content, title) values ('author', 'content', 'title')
 - plugin 설치
 - main/resources/templates/index.mustache 생성
 - main/java/com/jojoldu/book/springboot/web/IndexController 생성하여 연결함
+
+
+## 구글 서비스 등록
+- `https://console.cloud.google.com` 이동

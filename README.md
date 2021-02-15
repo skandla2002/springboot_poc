@@ -25,3 +25,6 @@ insert into posts (author, content, title) values ('author', 'content', 'title')
 
 ## 구글 서비스 등록
 - `https://console.cloud.google.com` 이동
+
+## Naver 로그인 등록
+- `https://developers.naver.com/apps/#/register?api=nvlogin` 이동

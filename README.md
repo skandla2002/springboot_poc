@@ -28,3 +28,6 @@ insert into posts (author, content, title) values ('author', 'content', 'title')
 
 ## Naver 로그인 등록
 - `https://developers.naver.com/apps/#/register?api=nvlogin` 이동
+
+## 테스트 실행
+- Gradle Tab > Tasks > verification > test 실행

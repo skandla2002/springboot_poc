@@ -82,7 +82,7 @@ public class PostsApiControllerTest {
 
         // when
 //        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url, requestDto, Long.class);
-        mvc.perform(post(url)
+        mvc.perform(post(url) // 생성된 MockMvc 인스턴트로 API 테스트 진행, 본문(body)영역은 문자열로 표현하기 위해 ObjectMapper를 통해 문자열 JSON으로 변환됨
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
                 .content(new ObjectMapper().writeValueAsString(requestDto)))
                 .andExpect(status().isOk());

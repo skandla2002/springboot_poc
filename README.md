@@ -31,3 +31,10 @@ insert into posts (author, content, title) values ('author', 'content', 'title')
 
 ## 테스트 실행
 - Gradle Tab > Tasks > verification > test 실행
+
+## AWS 서버 환경 구축
+- 24시간 서버 형태: 집 PC 24시간, 호스팅서비스(cafe24 등), 클라우드 서비스(AWS, GCP, AZURE 등)
+- Cloud 서비스 분류
+1. IaaS(아이아스, 이에스): 인프라 대여, AWS의 EC2나 S3
+2. PaaS(파스): AWS의 Beanstalk, Heroku 등
+3. SaaS(사스): 구글 드라이브, 드랍박스, 와탭 등
